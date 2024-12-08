@@ -1,0 +1,3 @@
+This repository demonstrates a potential issue with multiple levels of mutable references in Rust.  The `bug.rs` file showcases the problem, while `bugSolution.rs` offers a solution.
+
+The core issue lies in how Rust's borrowing rules interact with nested mutable references. While seemingly straightforward, the code can lead to confusion and unexpected modifications of the original variable. The solution file provides a more straightforward approach, clarifying the variable manipulation and ensuring predictable behavior.
